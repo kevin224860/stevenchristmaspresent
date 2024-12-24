@@ -15,7 +15,6 @@
         The fate of your Christmas joy depends on you! 🎅💪
       </p>
       <button @click="startAdventure">Start Your Adventure</button>
-      <button @click="second">second</button>
     </div>
   </template>
   
@@ -26,9 +25,7 @@
       startAdventure() {
         this.$router.push('/adventure');
       },
-      second() {
-        this.$router.push('/second');
-      }
+      
     }
   };
   </script>

@@ -14,6 +14,7 @@
     <p v-if="resultMessage" :class="{'correct': isCorrect, 'incorrect': !isCorrect}">
       {{ resultMessage }}
     </p>
+    <p class="correct">clue</p>
   </div>
 </template>
 
